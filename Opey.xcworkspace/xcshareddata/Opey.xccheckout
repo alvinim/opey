@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E0AC291-DE19-4B80-8BB0-A488C66B420D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Opey</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0D07344F-AA71-46C5-BA41-626F5666B773</key>
+		<string>ssh://github.com/alvinim/opey.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Opey.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0D07344F-AA71-46C5-BA41-626F5666B773</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/alvinim/opey.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0D07344F-AA71-46C5-BA41-626F5666B773</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0D07344F-AA71-46C5-BA41-626F5666B773</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Opey</string>
+		</dict>
+	</array>
+</dict>
+</plist>
