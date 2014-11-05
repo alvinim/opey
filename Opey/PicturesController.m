@@ -19,7 +19,11 @@
   if (![cell isKindOfClass:ProfileCell.class])
     return;
 
-  self.profileView.hidden = YES;
+  [UIView animateWithDuration:1.0
+                        delay:0.0
+                      options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionBeginFromCurrentState
+                   animations:^ { self.profileView.alpha = 0.0; }
+                   completion:^(BOOL finished) { if (finished) self.profileView.hidden = YES; }];
 }
 
 - (void)tableView:(UITableView *)table didEndDisplayingCell:(UITableViewCell *)cell
@@ -29,6 +33,11 @@
     return;
 
   self.profileView.hidden = NO;
+  [UIView animateWithDuration:1.0
+                        delay:0.0
+                      options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionBeginFromCurrentState
+                   animations:^ { self.profileView.alpha = 1.0; }
+                   completion:NULL];
 }
 
 @end
