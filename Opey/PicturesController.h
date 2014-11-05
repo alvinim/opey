@@ -10,4 +10,6 @@
 
 @interface PicturesController : UITableViewController
 
+@property (strong, nonatomic) IBOutlet UIView *profileView;
+
 @end

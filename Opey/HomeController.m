@@ -7,7 +7,20 @@
 //
 
 #import "HomeController.h"
+#import "PicturesController.h"
 
 @implementation HomeController
+
+#pragma mark - View controller methods
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue
+                 sender:(id)sender {
+  if (![segue.identifier isEqualToString:@"container"])
+    return;
+
+  PicturesController *pictures = segue.destinationViewController;
+
+  pictures.profileView = self.profileView;
+}
 
 @end

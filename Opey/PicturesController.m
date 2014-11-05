@@ -19,7 +19,7 @@
   if (![cell isKindOfClass:ProfileCell.class])
     return;
 
-  NSLog(@"appear");
+  self.profileView.hidden = YES;
 }
 
 - (void)tableView:(UITableView *)table didEndDisplayingCell:(UITableViewCell *)cell
@@ -28,7 +28,7 @@
   if (![cell isKindOfClass:ProfileCell.class])
     return;
 
-  NSLog(@"disappear");
+  self.profileView.hidden = NO;
 }
 
 @end
