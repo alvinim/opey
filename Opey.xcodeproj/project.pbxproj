@@ -15,13 +15,17 @@
 		B312955F1A0A33E000085DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B312955E1A0A33E000085DEA /* AppDelegate.m */; };
 		B31295621A0A33E000085DEA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31295601A0A33E000085DEA /* Main_iPhone.storyboard */; };
 		B31295651A0A33E000085DEA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31295631A0A33E000085DEA /* Main_iPad.storyboard */; };
-		B31295681A0A33E000085DEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31295671A0A33E000085DEA /* ViewController.m */; };
+		B31295681A0A33E000085DEA /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31295671A0A33E000085DEA /* HomeController.m */; };
 		B312956A1A0A33E000085DEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31295691A0A33E000085DEA /* Images.xcassets */; };
 		B31295711A0A33E000085DEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31295701A0A33E000085DEA /* XCTest.framework */; };
 		B31295721A0A33E000085DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312954E1A0A33E000085DEA /* Foundation.framework */; };
 		B31295731A0A33E000085DEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31295521A0A33E000085DEA /* UIKit.framework */; };
 		B312957B1A0A33E000085DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B31295791A0A33E000085DEA /* InfoPlist.strings */; };
 		B312957D1A0A33E000085DEA /* OpeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B312957C1A0A33E000085DEA /* OpeyTests.m */; };
+		B312958A1A0A35C900085DEA /* Adelaide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B31295871A0A35C900085DEA /* Adelaide.jpg */; };
+		B312958B1A0A35C900085DEA /* New York.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B31295881A0A35C900085DEA /* New York.jpg */; };
+		B312958C1A0A35C900085DEA /* Tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B31295891A0A35C900085DEA /* Tree.jpg */; };
+		B31295941A0A3ED200085DEA /* ProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B31295931A0A3ED200085DEA /* ProfileCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +51,19 @@
 		B312955E1A0A33E000085DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B31295611A0A33E000085DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		B31295641A0A33E000085DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		B31295661A0A33E000085DEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B31295671A0A33E000085DEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B31295661A0A33E000085DEA /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		B31295671A0A33E000085DEA /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		B31295691A0A33E000085DEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B312956F1A0A33E000085DEA /* OpeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31295701A0A33E000085DEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B31295781A0A33E000085DEA /* OpeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpeyTests-Info.plist"; sourceTree = "<group>"; };
 		B312957A1A0A33E000085DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B312957C1A0A33E000085DEA /* OpeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpeyTests.m; sourceTree = "<group>"; };
+		B31295871A0A35C900085DEA /* Adelaide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Adelaide.jpg; sourceTree = "<group>"; };
+		B31295881A0A35C900085DEA /* New York.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "New York.jpg"; sourceTree = "<group>"; };
+		B31295891A0A35C900085DEA /* Tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tree.jpg; sourceTree = "<group>"; };
+		B31295921A0A3ED200085DEA /* ProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCell.h; sourceTree = "<group>"; };
+		B31295931A0A3ED200085DEA /* ProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +93,9 @@
 		B31295421A0A33E000085DEA = {
 			isa = PBXGroup;
 			children = (
+				B312954D1A0A33E000085DEA /* Frameworks */,
 				B31295541A0A33E000085DEA /* Opey */,
 				B31295761A0A33E000085DEA /* OpeyTests */,
-				B312954D1A0A33E000085DEA /* Frameworks */,
 				B312954C1A0A33E000085DEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,13 +123,12 @@
 		B31295541A0A33E000085DEA /* Opey */ = {
 			isa = PBXGroup;
 			children = (
-				B312955D1A0A33E000085DEA /* AppDelegate.h */,
-				B312955E1A0A33E000085DEA /* AppDelegate.m */,
-				B31295601A0A33E000085DEA /* Main_iPhone.storyboard */,
-				B31295631A0A33E000085DEA /* Main_iPad.storyboard */,
-				B31295661A0A33E000085DEA /* ViewController.h */,
-				B31295671A0A33E000085DEA /* ViewController.m */,
+				B312958D1A0A3A9E00085DEA /* Controllers */,
+				B31295861A0A35C900085DEA /* Images */,
 				B31295691A0A33E000085DEA /* Images.xcassets */,
+				B312958E1A0A3AE600085DEA /* Libraries */,
+				B31295631A0A33E000085DEA /* Main_iPad.storyboard */,
+				B31295601A0A33E000085DEA /* Main_iPhone.storyboard */,
 				B31295551A0A33E000085DEA /* Supporting Files */,
 			);
 			path = Opey;
@@ -129,9 +137,9 @@
 		B31295551A0A33E000085DEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B31295561A0A33E000085DEA /* Opey-Info.plist */,
 				B31295571A0A33E000085DEA /* InfoPlist.strings */,
 				B312955A1A0A33E000085DEA /* main.m */,
+				B31295561A0A33E000085DEA /* Opey-Info.plist */,
 				B312955C1A0A33E000085DEA /* Opey-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -153,6 +161,36 @@
 				B31295791A0A33E000085DEA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B31295861A0A35C900085DEA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B31295871A0A35C900085DEA /* Adelaide.jpg */,
+				B31295881A0A35C900085DEA /* New York.jpg */,
+				B31295891A0A35C900085DEA /* Tree.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B312958D1A0A3A9E00085DEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B31295661A0A33E000085DEA /* HomeController.h */,
+				B31295671A0A33E000085DEA /* HomeController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B312958E1A0A3AE600085DEA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B312955D1A0A33E000085DEA /* AppDelegate.h */,
+				B312955E1A0A33E000085DEA /* AppDelegate.m */,
+				B31295921A0A3ED200085DEA /* ProfileCell.h */,
+				B31295931A0A3ED200085DEA /* ProfileCell.m */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +269,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B312958C1A0A35C900085DEA /* Tree.jpg in Resources */,
+				B312958A1A0A35C900085DEA /* Adelaide.jpg in Resources */,
 				B31295651A0A33E000085DEA /* Main_iPad.storyboard in Resources */,
 				B312956A1A0A33E000085DEA /* Images.xcassets in Resources */,
 				B31295621A0A33E000085DEA /* Main_iPhone.storyboard in Resources */,
+				B312958B1A0A35C900085DEA /* New York.jpg in Resources */,
 				B31295591A0A33E000085DEA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B31295681A0A33E000085DEA /* ViewController.m in Sources */,
+				B31295681A0A33E000085DEA /* HomeController.m in Sources */,
+				B31295941A0A3ED200085DEA /* ProfileCell.m in Sources */,
 				B312955F1A0A33E000085DEA /* AppDelegate.m in Sources */,
 				B312955B1A0A33E000085DEA /* main.m in Sources */,
 			);
@@ -470,6 +512,7 @@
 				B31295821A0A33E000085DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B31295831A0A33E000085DEA /* Build configuration list for PBXNativeTarget "OpeyTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +521,7 @@
 				B31295851A0A33E000085DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
