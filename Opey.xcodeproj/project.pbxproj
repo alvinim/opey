@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B312954F1A0A33E000085DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312954E1A0A33E000085DEA /* Foundation.framework */; };
+		B31295511A0A33E000085DEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31295501A0A33E000085DEA /* CoreGraphics.framework */; };
+		B31295531A0A33E000085DEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31295521A0A33E000085DEA /* UIKit.framework */; };
+		B31295591A0A33E000085DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B31295571A0A33E000085DEA /* InfoPlist.strings */; };
+		B312955B1A0A33E000085DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B312955A1A0A33E000085DEA /* main.m */; };
+		B312955F1A0A33E000085DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B312955E1A0A33E000085DEA /* AppDelegate.m */; };
+		B31295621A0A33E000085DEA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31295601A0A33E000085DEA /* Main_iPhone.storyboard */; };
+		B31295651A0A33E000085DEA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31295631A0A33E000085DEA /* Main_iPad.storyboard */; };
+		B31295681A0A33E000085DEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31295671A0A33E000085DEA /* ViewController.m */; };
+		B312956A1A0A33E000085DEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31295691A0A33E000085DEA /* Images.xcassets */; };
+		B31295711A0A33E000085DEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31295701A0A33E000085DEA /* XCTest.framework */; };
+		B31295721A0A33E000085DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B312954E1A0A33E000085DEA /* Foundation.framework */; };
+		B31295731A0A33E000085DEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31295521A0A33E000085DEA /* UIKit.framework */; };
+		B312957B1A0A33E000085DEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B31295791A0A33E000085DEA /* InfoPlist.strings */; };
+		B312957D1A0A33E000085DEA /* OpeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B312957C1A0A33E000085DEA /* OpeyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B31295741A0A33E000085DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31295431A0A33E000085DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B312954A1A0A33E000085DEA;
+			remoteInfo = Opey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B312954B1A0A33E000085DEA /* Opey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B312954E1A0A33E000085DEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B31295501A0A33E000085DEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B31295521A0A33E000085DEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B31295561A0A33E000085DEA /* Opey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Opey-Info.plist"; sourceTree = "<group>"; };
+		B31295581A0A33E000085DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B312955A1A0A33E000085DEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B312955C1A0A33E000085DEA /* Opey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Opey-Prefix.pch"; sourceTree = "<group>"; };
+		B312955D1A0A33E000085DEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B312955E1A0A33E000085DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B31295611A0A33E000085DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B31295641A0A33E000085DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B31295661A0A33E000085DEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B31295671A0A33E000085DEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B31295691A0A33E000085DEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B312956F1A0A33E000085DEA /* OpeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31295701A0A33E000085DEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B31295781A0A33E000085DEA /* OpeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpeyTests-Info.plist"; sourceTree = "<group>"; };
+		B312957A1A0A33E000085DEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B312957C1A0A33E000085DEA /* OpeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpeyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B31295481A0A33E000085DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31295511A0A33E000085DEA /* CoreGraphics.framework in Frameworks */,
+				B31295531A0A33E000085DEA /* UIKit.framework in Frameworks */,
+				B312954F1A0A33E000085DEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B312956C1A0A33E000085DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31295711A0A33E000085DEA /* XCTest.framework in Frameworks */,
+				B31295731A0A33E000085DEA /* UIKit.framework in Frameworks */,
+				B31295721A0A33E000085DEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B31295421A0A33E000085DEA = {
+			isa = PBXGroup;
+			children = (
+				B31295541A0A33E000085DEA /* Opey */,
+				B31295761A0A33E000085DEA /* OpeyTests */,
+				B312954D1A0A33E000085DEA /* Frameworks */,
+				B312954C1A0A33E000085DEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B312954C1A0A33E000085DEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B312954B1A0A33E000085DEA /* Opey.app */,
+				B312956F1A0A33E000085DEA /* OpeyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B312954D1A0A33E000085DEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B312954E1A0A33E000085DEA /* Foundation.framework */,
+				B31295501A0A33E000085DEA /* CoreGraphics.framework */,
+				B31295521A0A33E000085DEA /* UIKit.framework */,
+				B31295701A0A33E000085DEA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B31295541A0A33E000085DEA /* Opey */ = {
+			isa = PBXGroup;
+			children = (
+				B312955D1A0A33E000085DEA /* AppDelegate.h */,
+				B312955E1A0A33E000085DEA /* AppDelegate.m */,
+				B31295601A0A33E000085DEA /* Main_iPhone.storyboard */,
+				B31295631A0A33E000085DEA /* Main_iPad.storyboard */,
+				B31295661A0A33E000085DEA /* ViewController.h */,
+				B31295671A0A33E000085DEA /* ViewController.m */,
+				B31295691A0A33E000085DEA /* Images.xcassets */,
+				B31295551A0A33E000085DEA /* Supporting Files */,
+			);
+			path = Opey;
+			sourceTree = "<group>";
+		};
+		B31295551A0A33E000085DEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31295561A0A33E000085DEA /* Opey-Info.plist */,
+				B31295571A0A33E000085DEA /* InfoPlist.strings */,
+				B312955A1A0A33E000085DEA /* main.m */,
+				B312955C1A0A33E000085DEA /* Opey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B31295761A0A33E000085DEA /* OpeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B312957C1A0A33E000085DEA /* OpeyTests.m */,
+				B31295771A0A33E000085DEA /* Supporting Files */,
+			);
+			path = OpeyTests;
+			sourceTree = "<group>";
+		};
+		B31295771A0A33E000085DEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31295781A0A33E000085DEA /* OpeyTests-Info.plist */,
+				B31295791A0A33E000085DEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B312954A1A0A33E000085DEA /* Opey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31295801A0A33E000085DEA /* Build configuration list for PBXNativeTarget "Opey" */;
+			buildPhases = (
+				B31295471A0A33E000085DEA /* Sources */,
+				B31295481A0A33E000085DEA /* Frameworks */,
+				B31295491A0A33E000085DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Opey;
+			productName = Opey;
+			productReference = B312954B1A0A33E000085DEA /* Opey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B312956E1A0A33E000085DEA /* OpeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31295831A0A33E000085DEA /* Build configuration list for PBXNativeTarget "OpeyTests" */;
+			buildPhases = (
+				B312956B1A0A33E000085DEA /* Sources */,
+				B312956C1A0A33E000085DEA /* Frameworks */,
+				B312956D1A0A33E000085DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31295751A0A33E000085DEA /* PBXTargetDependency */,
+			);
+			name = OpeyTests;
+			productName = OpeyTests;
+			productReference = B312956F1A0A33E000085DEA /* OpeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31295431A0A33E000085DEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Enginer Partner";
+				TargetAttributes = {
+					B312956E1A0A33E000085DEA = {
+						TestTargetID = B312954A1A0A33E000085DEA;
+					};
+				};
+			};
+			buildConfigurationList = B31295461A0A33E000085DEA /* Build configuration list for PBXProject "Opey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B31295421A0A33E000085DEA;
+			productRefGroup = B312954C1A0A33E000085DEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B312954A1A0A33E000085DEA /* Opey */,
+				B312956E1A0A33E000085DEA /* OpeyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B31295491A0A33E000085DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31295651A0A33E000085DEA /* Main_iPad.storyboard in Resources */,
+				B312956A1A0A33E000085DEA /* Images.xcassets in Resources */,
+				B31295621A0A33E000085DEA /* Main_iPhone.storyboard in Resources */,
+				B31295591A0A33E000085DEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B312956D1A0A33E000085DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B312957B1A0A33E000085DEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B31295471A0A33E000085DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31295681A0A33E000085DEA /* ViewController.m in Sources */,
+				B312955F1A0A33E000085DEA /* AppDelegate.m in Sources */,
+				B312955B1A0A33E000085DEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B312956B1A0A33E000085DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B312957D1A0A33E000085DEA /* OpeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B31295751A0A33E000085DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B312954A1A0A33E000085DEA /* Opey */;
+			targetProxy = B31295741A0A33E000085DEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B31295571A0A33E000085DEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31295581A0A33E000085DEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B31295601A0A33E000085DEA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31295611A0A33E000085DEA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B31295631A0A33E000085DEA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31295641A0A33E000085DEA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B31295791A0A33E000085DEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B312957A1A0A33E000085DEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B312957E1A0A33E000085DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B312957F1A0A33E000085DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B31295811A0A33E000085DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opey/Opey-Prefix.pch";
+				INFOPLIST_FILE = "Opey/Opey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B31295821A0A33E000085DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opey/Opey-Prefix.pch";
+				INFOPLIST_FILE = "Opey/Opey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B31295841A0A33E000085DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Opey.app/Opey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opey/Opey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OpeyTests/OpeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B31295851A0A33E000085DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Opey.app/Opey";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opey/Opey-Prefix.pch";
+				INFOPLIST_FILE = "OpeyTests/OpeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B31295461A0A33E000085DEA /* Build configuration list for PBXProject "Opey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B312957E1A0A33E000085DEA /* Debug */,
+				B312957F1A0A33E000085DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31295801A0A33E000085DEA /* Build configuration list for PBXNativeTarget "Opey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31295811A0A33E000085DEA /* Debug */,
+				B31295821A0A33E000085DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B31295831A0A33E000085DEA /* Build configuration list for PBXNativeTarget "OpeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31295841A0A33E000085DEA /* Debug */,
+				B31295851A0A33E000085DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31295431A0A33E000085DEA /* Project object */;
+}
