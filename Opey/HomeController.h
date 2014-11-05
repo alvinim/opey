@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeController.h
 //  Opey
 //
 //  Created by Alvin Yim on 5/11/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeController : UITableViewController
+@interface HomeController : UIViewController
 
 @end
