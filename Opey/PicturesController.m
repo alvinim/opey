@@ -19,6 +19,9 @@
   if (![cell isKindOfClass:ProfileCell.class])
     return;
 
+  [self.navigationController setToolbarHidden:NO
+                                     animated:YES];
+
   [UIView animateWithDuration:1.0
                         delay:0.0
                       options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionBeginFromCurrentState
@@ -31,6 +34,9 @@
 
   if (![cell isKindOfClass:ProfileCell.class])
     return;
+
+  [self.navigationController setToolbarHidden:YES
+                                     animated:YES];
 
   self.profileView.hidden = NO;
   [UIView animateWithDuration:1.0
